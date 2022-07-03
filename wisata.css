@@ -1,0 +1,112 @@
+/*Variabel warna*/
+:root{
+    --warna1: #f5f5f5;
+    --warna2: #ebecf0;
+    --warna3: #336a70;
+    
+ }
+ /*Navbar*/
+nav {
+    background-color: var(--warna3);
+    color: var(--warna2);
+ }
+
+ .navbar-brand img{
+    height: 50px;
+    width: 50px;
+ }
+
+body, html {
+    width: 100%;
+    font-family: 'Archivo', sans-serif;
+}
+
+/*Main*/
+main h1#judul{
+text-align: center;
+padding-top: 40px;
+}
+
+main{
+    background-color: var(--warna2);
+}
+
+/*Container judul*/
+#container-judul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#container-judul img{
+    width: 50px;
+    padding-top: 20px;
+}
+
+
+
+#wisata{
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-wisata{
+    width: 450px;
+    background-color: var(--warna1);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.284);
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card-wisata:hover{
+  transform: scale(1.1);
+  border: 2px solid var(--warna3);
+}
+/*Bagian atas*/
+.bagian-atas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-wisata .bagian-atas img{
+    width: 100%;
+}
+/*Bagian bawah*/
+.bagian-bawah{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.card-wisata .bagian-bawah iframe{
+    width: 100%;
+    height: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.keterangan ul{
+    list-style: none;
+    border: 1px solid black;
+    width: 60%;
+    justify-content: center; 
+    margin: 0 auto;
+}
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 40px;
+    background-color: var(--warna3);
+    color: var(--warna2);
+ }

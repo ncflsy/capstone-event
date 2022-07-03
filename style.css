@@ -1,0 +1,386 @@
+/*Variabel warna*/
+:root{
+   --warna1: #f5f5f5;
+   --warna2: #ebecf0;
+   --warna3: #336a70;
+   
+}
+
+
+
+body, html {
+   font-family:'Hind', sans-serif; 
+   width: 100%;
+   font-family: 'Archivo', sans-serif;
+}
+
+/*Navbar*/
+nav {
+   background-color: var(--warna3);
+   color: var(--warna2);
+}
+
+.navbar-brand img{
+   height: 50px;
+   width: 50px;
+}
+
+/*Halaman Utama (Slider)*/
+
+.carousel-item {
+   height: 600px;
+}
+.carousel-item img{
+   margin-top: -150px;
+}
+
+.carousel-caption{
+   padding: 10%;
+   color: white;
+}
+
+#caption-jelajahi{
+   font-weight: 100;
+}
+
+.carousel-caption .h1kedua{
+   font-weight: 700;
+   color: white;
+}
+
+#caption-paragraf{
+   font-weight: 100;
+}
+
+.carousel-caption .button-kunjungi{
+   width: 150px;
+   height: 50px;
+   border-radius: 30px;
+   background-color: var(--warna1);
+   border: 3px solid var(--warna3);
+}
+
+
+/*Halaman Kedua*/
+#halaman-kedua {
+   padding-top: 100px;
+   padding-bottom: 50px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   background-color: var(--warna1);
+}
+#quote{
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+.konten {
+   width: 800px;
+   height: 500px;
+   display: flex;
+   flex-direction: row;
+   border-radius: 50px;
+   margin: 10px auto;
+   align-items: center;
+   padding: 0 50px 0 50px;
+   background-color: var(--warna2);
+   box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+   transition: opacity 0.3s ease-in-out;
+}
+
+.konten img{
+  width: 300px;
+}
+/*Halaman ketiga*/
+#halaman-ketiga {
+   background-color: var(--warna2);
+   padding-top: 100px;
+   padding-bottom: 100px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+#pilihan-menu {
+   display: flex;
+   flex-direction: row;
+   width: 510px;
+   justify-content: center;
+   margin: 20px auto;
+}
+#pilihan-menu a{
+   text-decoration: none;
+   color: black;
+}
+
+#pilihan-menu section{
+   width: 170px;
+   height: 170px;
+   padding: 10px;
+   background-color:var(--warna1);
+   border: 3px solid var(--warna3);
+}
+
+#pilihan-menu section:hover{
+   transform: scale(1.2);
+   border-radius: 30px;
+}
+
+#pilihan-menu img{
+   width: 60px;
+}
+
+/*Halaman empat*/
+
+#halaman-empat {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   text-align: center;
+   background-color: var(--warna1);
+}
+
+#kumpulan-hotel {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+#halaman-empat .hotel{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin: 10px;
+   height: 450px;
+   width: 300px;
+   padding: 10px;
+   text-align: center;
+   border-radius: 10px;
+   background-color: var(--warna3);
+   color: var(--warna2);
+   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.284);
+   transition: opacity 0.3s ease-in-out;
+}
+
+#halaman-empat .hotel:hover{
+   transform: scale(1.4);
+}
+
+#halaman-empat .hotel img{
+ width: 90%;
+ margin: 0 auto;
+ padding-bottom: 10px;
+}
+
+#halaman-empat .hotel button{
+   border-radius: 20px;
+}
+
+#halaman-empat .hotel button:hover{
+   border: 2px solid var(--warna1);
+   background-color: var(--warna2);
+   color: var(--warna3);
+}
+
+/*Halaman lima*/
+#halaman-lima {
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   background-color: var(--warna2);
+}
+
+#kumpulan-wisata {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 60%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: var(--warna1);
+   border-radius: 40px;
+   box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+   transition: opacity 0.3s ease-in-out;
+}
+#judul-lima {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto 0;
+   width: 40%;
+   height: 500px;
+   background-color: var(--warna3);
+   border-radius: 40px;
+   position: relative;
+   left: 80px;
+   color: var(--warna2);
+   box-shadow: 0 3px 15px rgba(3, 31, 0, 0.2);
+   transition: opacity 0.3s ease-in-out;
+}
+
+#halaman-lima .wisata{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin: 10px;
+   width: 300px;
+   padding: 10px;
+   text-align: center;
+   background-color: var(--warna1);
+   border: 2px solid var(--warna3);
+   border-radius: 20px;
+   box-shadow: 0 3px 15px rgba(17, 168, 0, 0.114);
+   transition: opacity 0.3s ease-in-out;
+}
+
+#halaman-lima .wisata img{
+ width: 90%;
+ margin: 0 auto;
+ padding-bottom: 10px;
+}
+
+.button-wisata{
+   border-radius: 20px;
+}
+
+.button-wisata:hover{
+   background-color: var(--warna3);
+   color: var(--warna2);
+}
+
+/*Halaman enam*/
+#halaman-enam {
+   justify-content: center;
+   text-align: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   display: flex;
+   justify-content: center;
+}
+
+#halenam{
+   border: 4px solid var(--warna3);
+   width: 70%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 150px;
+}
+
+#halenam:hover{
+   border: 4px solid black;
+   background-color: var(--warna3);
+   color: var(--warna2);
+}
+
+#halaman-enam button{
+   width: 105px;
+   height: 40px;
+   border-radius: 20px;
+   justify-items: center;
+   background-color: var(--warna3);
+   color: var(--warna2);
+}
+
+#halaman-enam button:hover{
+   background-color: var(--warna2);
+   color: var(--warna3);
+}
+
+/*Footer*/
+footer{
+   text-align: center;
+   padding: 40px;
+   background-color: var(--warna3);
+   color: var(--warna2);
+}
+
+a button{
+  width: 80%;
+}
+
+
+@media (max-width: 768px) { 
+   /*Halaman Utama*/
+   .carousel-item {
+      height: 300px;
+   }
+   .carousel-caption{
+      color: black;
+   }
+
+   /*Halaman kedua*/
+   .konten {
+      width: 600px;
+      height: 300px;
+   }
+   /*Halaman tiga*/
+   #pilihan-menu {
+      display: flex;
+      flex-direction: column;
+      width: 510px;
+   }
+
+   #pilihan-menu section{
+      margin: 0 auto;
+      width: 270px;
+      height: 270px;
+      padding: 10px;
+   }
+
+   /*Halaman lima*/
+   #halaman-lima {
+      display: flex;
+      flex-direction: column;
+   }
+
+   #kumpulan-wisata {
+      width: 100%;
+   }
+
+   #judul-lima {
+      width: 100%;
+      padding: 30px 0 10px 0;
+      height: 80px;
+      position: static;
+      left: 0;
+   }
+    /*Halaman enam*/
+    #halenam{
+      width: 80%;
+   }
+   
+
+}
+
+@media (max-width: 576px) { 
+   /*Halaman Utama*/
+   .carousel-item {
+      height: 200px;
+   }
+
+   /*Halaman kedua*/
+   .konten {
+      width: 400px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      padding: 30px 0;
+   }
+
+   /*Halaman tiga*/
+   #pilihan-menu {
+      width: 410px;
+   }
+
+   /*Halaman enam*/
+   #halenam{
+      width: 90%;
+   }
+   
+
+ }
